@@ -34,7 +34,7 @@ The dataset contains information on default payments, demographic factors, credi
 •	PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)    
 •	default. payment. next. month: Default payment (1=yes, 0=no)      
 
-For detailed analysis on classification algorithms, refer to Credit Card Default Fraud Classification.pdf.The code for the analyis is avaiable in Credit Card Default Prediction Code 1.     
-For detailed analysis on Artificial Neural Network model, refer to Credit Card Default(ANN).pdf.The code for the analyis is avaiable in Credit Card Default Prediction Code 2.     
+For detailed analysis on classification algorithms, refer to Credit Card Default Fraud Classification.pdf.The code for the analysis is avaiable in Credit Card Default Prediction Code 1.     
+For detailed analysis on Artificial Neural Network model, refer to Credit Card Default(ANN).pdf.The code for the analysis is avaiable in Credit Card Default Prediction Code 2.     
 ## Conclusion   
 After performing all the three classification algorithms,Adaboost tree provides best accuracy (~82%).However, the best model for the Credit Card Default dataset would be Artificial Neural Network model with test accuracy of 82% and highest precision score of 0.37.Our primary goal is to identify defaults.As misclassifying default as not default will have a higher negative impact than misclassifying a non default as default.Hence we want high precision score.      
