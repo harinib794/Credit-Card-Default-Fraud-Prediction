@@ -3,11 +3,11 @@ In this project, I will be implementing classification algorithms like Support V
 The dataset source of Credit card default dataset:    
  https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset   
 
-#About Credit Card Default Dataset     
+## About Credit Card Default Dataset     
 Credit card fraud causes a huge amount of bad debt for banks. Detecting fraud such as credit card payment default in advance can save financial institutions from significant losses. Predictive analytics is extensively used by financial institutions to identify fraud instances and take action to avoid or mitigate such situation. I’ve chosen this dataset as it would help me explore how machine learning algorithms can be used for fraud prevention.       
 The dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in Taiwan from April 2005 to September 2005.It has 30,000 observations and 25 attributes. The target variable is whether credit card user will default or not.     
 
-#Attributes:   
+## Attributes:   
 •	ID: ID of each client   
 •	LIMIT_BAL: Amount of given credit in NT dollars     
 •	SEX: Gender (1=male, 2=female)    
@@ -34,5 +34,5 @@ The dataset contains information on default payments, demographic factors, credi
 •	PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)    
 •	default. payment. next. month: Default payment (1=yes, 0=no)      
 
-#Conclusion   
-After performing all the three classification algorithms,Adaboost tree provides best accuracy (~82%).However, the best model for the Credit Card Default dataset would be Artificial Nueral Network model with test accuracy of 82% and highest precision score of 0.37.Our primary goal is to identify defaults.As misclassifying default as not default will have a higher negative impact than misclassifying a non default as default.Hence we want high precision score.      
+## Conclusion   
+After performing all the three classification algorithms,Adaboost tree provides best accuracy (~82%).However, the best model for the Credit Card Default dataset would be Artificial Neural Network model with test accuracy of 82% and highest precision score of 0.37.Our primary goal is to identify defaults.As misclassifying default as not default will have a higher negative impact than misclassifying a non default as default.Hence we want high precision score.      
